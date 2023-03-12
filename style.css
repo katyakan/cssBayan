@@ -1,0 +1,191 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.625vw; 
+  font-style: normal;
+  font-weight: normal;
+  -webkit-animation: bugfix infinite 1s;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-style: normal;
+  font-weight: normal;
+  -webkit-animation: bugfix infinite 1s;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  color: black; 
+  background-color: beige; 
+  
+}
+
+input,
+textarea {
+  -webkit-animation: bugfix infinite 1s;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: unset;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+button {
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  padding: 0;
+  background-color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 112rem;
+  margin: 0 auto;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+
+/*strokes*/
+
+.faq2 {
+  box-sizing: border-box;
+}
+  .bayan {
+    transform: translateZ(0);
+    background:  beige;
+    border-top: 1px solid #353945;
+    align-items: center;
+    
+  }
+  
+  .bayan>.bayan-toggle {
+    display: none;
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .bayan>label {
+    display: block;
+    position: relative;
+    height: 96px;
+    line-height: 50px;
+    padding: 40px 5px 10px 0;
+    background:  beige;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:black;
+    align-items: center;
+  }
+  
+  .bayan>label:after {
+    content: '';
+    position: absolute;
+    top: 42px;
+    right: 20px;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #555;
+    border-top: 2px solid #555;
+    transform: rotate(-135deg);
+    transition: 0.4s transform;
+  }
+  
+  .bayan>section {
+    overflow: hidden;
+    height: 0;
+    transition: all .4s;
+  }
+  
+  .bayan>.bayan-toggle:checked~label:after {
+    transform: rotate(45deg);
+    top: 16px;
+  }
+  
+  .bayan>.bayan-toggle:checked~section {
+    height: auto;
+  }
+  
+  .bayan>section p {
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .toggle_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #777E91;
+align-items: center;
+  }
+
+
+  
+
+ 
+
+
