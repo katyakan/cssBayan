@@ -204,10 +204,18 @@ line-height: 6rem;
 }
 
 .bayan label {
-  font-family: 'Mukta';
+  font-family: 'Mukta', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 2.4rem;
   line-height: 2.4rem;
   color:#1e81b0;
+}
+
+.container:hover label{
+  color: black;
+}
+
+.bayan label:active {
+  color: black;
 }
